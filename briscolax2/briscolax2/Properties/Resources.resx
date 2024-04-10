@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="amicizia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\amicizia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreBastoni1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\TreBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DueCoppe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\DueCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coppa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\coppa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="retro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\retro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CavalloOro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\CavalloOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SetteBastoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\SetteBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istruzioni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\istruzioni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReSpade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\ReSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="briscola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\briscola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CavalloSpade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\CavalloSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeiCoppe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\SeiCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tavolo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\tavolo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AssoCoppe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\AssoCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeiOro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\SeiOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeiSpade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\SeiSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CavalloBastoni1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\CavalloBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreSpade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\TreSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuattroOro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\QuattroOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DueBastoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\DueBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeiBastoni1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\SeiBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="puntiCarte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\puntiCarte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DonnaOro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\DonnaOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DueOro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\DueOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="retr1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\retr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AssoOro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\AssoOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gioca2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\interfaccia\gioca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreOro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\TreOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReSpade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\ReSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DonnaCoppe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\DonnaCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gioca1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\interfaccia\gioca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CavalloCoppe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\CavalloCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CavalloBastoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\CavalloBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CinqueBastoni1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\CinqueBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="retr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\retr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DueSpade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\DueSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreCoppe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\TreCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuattroSpade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\QuattroSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\home.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gioca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\interfaccia\gioca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuattroCoppe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\QuattroCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReCoppe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\ReCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DonnaOro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\DonnaOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CinqueCoppe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\CinqueCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuattroSpade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\QuattroSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReBastoni1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\ReBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DonnaSpade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\DonnaSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CinqueSpade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\CinqueSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CinqueSpade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\CinqueSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AssoBastoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\AssoBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SetteCoppe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\SetteCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CavalloOro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\CavalloOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DonnaSpade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\DonnaSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AssoSpade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\AssoSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DonnaCoppe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\DonnaCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeiOro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\SeiOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeiCoppe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\SeiCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tavBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\tavBack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SetteBastoni1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\SetteBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DueCoppe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\DueCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuattroBastoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\QuattroBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreBastoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\TreBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AssoOro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\AssoOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuattroOro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\QuattroOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CinqueOro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\CinqueOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CavalloCoppe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\CavalloCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\back.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReOro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\ReOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreOro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\TreOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DueBastoni1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\DueBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SetteCoppe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\SetteCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SetteOro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\SetteOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReOro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\ReOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuattroCoppe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\QuattroCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SetteSpade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\SetteSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreCoppe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\TreCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DonnaBastoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\DonnaBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istruzioni1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\istruzioni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeiBastoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\SeiBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeiSpade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\SeiSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AssoSpade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\AssoSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AssoCoppe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\AssoCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReBastoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\ReBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CinqueOro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\CinqueOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DueOro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\DueOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DonnaBastoni1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\DonnaBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReCoppe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\ReCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SetteSpade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\SetteSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AssoBastoni1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\AssoBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreSpade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\TreSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CavalloSpade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\CavalloSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tavBack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\interfaccia\tavBack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CinqueCoppe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\CinqueCoppe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuattroBastoni1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>interfaccia\QuattroBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CinqueBastoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\CinqueBastoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DueSpade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\DueSpade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SetteOro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\interfaccia\SetteOro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coppa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\interfaccia\coppa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
